@@ -12,12 +12,13 @@
     <nav id="logo">
         <img src="images/logo.jpg" alt="logo">
         <article>
-            <h2><a href="#">S-Store</a></h2>
+            <h2><a href="home.html">S-Store</a></h2>
             <h4>Fashion-Cosmetics</h4>
        </article>
         <div id="question">
             <img src="images/telephone.png" >
             <i>Contact by phone <b><a href="#">0511 333 666</a></b></i> 
+            <a href="cart.html"><i class="fa fa-shopping-cart"><span id="buy"></span></i></a>
         </div>
     </nav>
     <section class="section-first">
@@ -37,8 +38,29 @@
     
 </header>
 <main>
-	
-
+    <table class="js-main-table">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Product</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody id="cart-items">
+<!--        <tr>-->
+<!--            <td>Id</td>-->
+<!--            <td><img class="cart-item-image" src="images/img1.jpg" alt=""></td>-->
+<!--            <td><span>Name</span></td>-->
+<!--            <td>price</td>-->
+<!--            <td><input type="number" class="cart-quantity-input" value="2"></td>-->
+<!--            <td><button class="btn btn-danger" type="button">REMOVE</button></td>-->
+<!--        </tr>-->
+        </tbody>
+    </table>
+</main>
 <footer>
     <section>
         <aside>
@@ -74,5 +96,6 @@
         </article>
     </section>
 </footer>
+<script type="text/javascript" src="js/cart.js"></script>
 </body>
 </html>
